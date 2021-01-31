@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "oldreddit",
+  "version": "1.0",
+
+  "description": "Redirects to old reddit",
+
+  "icons": {
+    "32": "icons/favicon-32.png",
+    "256": "icons/icon-256.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*"],
+      "js": ["oldreddit.js"]
+    }
+  ]
+
+}

@@ -1,0 +1,7 @@
+*.zip
+node_modules
+web-ext-artifacts
+.web-ext*
+.env
+scripts
+webextconf.js

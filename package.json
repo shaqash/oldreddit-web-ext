@@ -1,0 +1,15 @@
+{
+  "name": "oldreddit",
+  "version": "1.0.0",
+  "description": "Firefox extension for redirecting to old reddit",
+  "main": "oldreddit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ""
+  },
+  "author": "Shaked Ashkenazi",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
